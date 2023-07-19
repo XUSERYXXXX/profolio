@@ -1,0 +1,118 @@
+html {
+  background-image: url(./niyo.webp);
+}
+.container {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: block;
+}
+.image {
+  height: 50ch;
+  width: 400px;
+  border: 5px solid rgba(255, 255, 255, 0.169);
+  border-radius: 100px;
+  position: relative;
+  margin-left: 30%;
+  background-color: #9a97995d;
+  opacity: 0.87;
+}
+.contents {
+  height: 10ch;
+  width: 800px;
+  border: 5px solid rgba(238, 242, 243, 0.785);
+  border-radius: 45px;
+  color: rgba(234, 217, 242, 0.984);
+  position: relative;
+  margin-top: 1ch;
+  margin-left: 15%;
+  display: flex;
+  gap: 2px;
+  min-width: 100px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex: 4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: rgba(191, 212, 231, 0.456);
+  opacity: 0.7;
+  text-align: justify;
+}
+
+.profolio {
+  height: 30ch;
+  width: 200px;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 100px;
+  border: 5px solid rgba(2, 118, 161, 0.785);
+  border-radius: 100px;
+}
+
+.gmail {
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+  margin-left: 35px;
+  margin-top: 30px;
+  border: 5px solid rgba(137, 139, 149, 0.852);
+  border-radius: 10%;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.gmail:hover {
+  box-shadow: 10px 10px 30px #d2d21b;
+  background-color: rgba(17, 255, 172, 0.682);
+}
+
+p {
+  font-size: 150%;
+  font-weight: 50;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: rgba(236, 230, 239, 0.984);
+}
+a {
+  color: rgba(231, 223, 230, 0.984);
+}
+i {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (max-width: 600px) {
+  .image {
+    position: relative;
+    margin-left: 0%;
+    width: 400px;
+  }
+  .contents {
+    height: 400px;
+    width: 400px;
+    display: block;
+    text-align: justify;
+    margin-left: 0%;
+  }
+  .gmail {
+    margin-left: 30%;
+  }
+  @media screen and (min-width: 300px) {
+    .image {
+      position: relative;
+      margin-left: 0%;
+      width: 400px;
+    }
+    .contents {
+      height: 400px;
+      width: 400px;
+      display: block;
+      text-align: justify;
+      margin-left: 0%;
+    }
+    .gmail {
+      margin-left: 30%;
+    }
+  }
+}
